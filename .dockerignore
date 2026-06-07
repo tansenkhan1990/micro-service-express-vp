@@ -1,0 +1,29 @@
+# Dependencies and build artifacts (rebuilt inside the image)
+node_modules/
+dist/
+coverage/
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+
+# Git and CI
+.git/
+.github/
+
+# Documentation and local tooling
+README.md
+.vscode/
+.idea/
+.cursor/
+
+# Logs and caches
+*.log
+.eslintcache
+*.tsbuildinfo
+
+# Docker (not needed in build context)
+docker-compose.yml
+docker-compose.override.yml
+Dockerfile

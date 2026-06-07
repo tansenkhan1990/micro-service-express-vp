@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables (keep template tracked)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+nodemon-debug.log
+
+# Test coverage
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint / Prettier cache
+.eslintcache
+
+# Docker local overrides
+docker-compose.override.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Cursor local state
+.cursor/
