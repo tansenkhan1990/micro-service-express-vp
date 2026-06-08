@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: microservices
+data:
+  CORS_ORIGIN: "https://your-frontend.example.com"
+  ACCESS_TOKEN_EXPIRY: "15m"
+  REFRESH_TOKEN_EXPIRY: "7d"
+  AUTH_SERVICE_URL: "http://auth-service:3001"
+  USER_SERVICE_URL: "http://user-service:3002"
+  MONGO_URI: "mongodb://mongo:27017/express-auth"
+  REDIS_URL: "redis://redis:6379"

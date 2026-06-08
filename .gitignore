@@ -44,3 +44,6 @@ Thumbs.db
 
 # Cursor local state
 .cursor/
+
+# Kubernetes secrets (use secrets.example.yaml as template)
+k8s/secrets.yaml
